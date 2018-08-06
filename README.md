@@ -1,7 +1,7 @@
 # test-web-autoscaling-group
 Azure autoscaling group scripts with web app
 
-Run with Azure CLI on the Jenkins 9with azure service principal embedded):
+Runs with Azure CLI on the Jenkins (with azure service principal embedded and Azure CLI plugin):
 
 az group create --name myResourceGroup --location eastus
 
