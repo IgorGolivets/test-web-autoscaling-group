@@ -8,4 +8,4 @@ az group create --name myResourceGroup --location eastus
 az group deployment create --resource-group myResourceGroup --template-uri https://raw.githubusercontent.com/IgorGolivets/test-web-autoscaling-group/master/autoscale_nginx.json --parameters adminUsername=jenkins adminPassword="jenkins!2345"
 
 web app will be available by this link:
-"https://test-web-app.eastus.cloudapp.azure.com"
+"http://test-web-app.eastus.cloudapp.azure.com"
