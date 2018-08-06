@@ -121,7 +121,11 @@
             "name": "Basic"
         },
         "properties": {
-            "publicIPAllocationMethod": "Dynamic"
+            "publicIPAllocationMethod": "Dynamic",
+            "dnsSettings": {
+              "domainNameLabel": "test-web-app",
+              "fqdn": "test-web-app.eastus.cloudapp.azure.com"
+            }
         }
       },
       {
